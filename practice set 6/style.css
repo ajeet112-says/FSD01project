@@ -1,0 +1,30 @@
+ul {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+#outer{
+    height: 300px;
+    width:300px ;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(178, 218, 18);
+}

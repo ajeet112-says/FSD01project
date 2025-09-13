@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #0d47a1; /* Dark blue */
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    border: 2px solid #90caf9; /* Light blue border */
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: #0d47a1; /* Dark blue */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    background-color: #e3f2fd; /* Very light blue */
+    border: 1px solid #64b5f6; /* Blue border */
+    padding: 8px;
+    border-radius: 4px;
+    width: 50%;
+}
+
+input[type="file"] {
+    background-color: #e3f2fd;
+    border: 1px solid #64b5f6;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: #1976d2; /* Color for checkboxes and radios */
+}
+
+button {
+    background-color: #1976d2; /* Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+textarea {
+    width: 50%;
+    border-radius: 4px;
+    padding: 8px;
+}
