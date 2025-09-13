@@ -1,0 +1,8 @@
+#container{
+    height: 200px;
+    width: 200px;
+    background-image:url("bc\ image.jpg");
+    background-size: cover;
+    position: fixed;
+   right: inherit; bottom: 500px;
+}
