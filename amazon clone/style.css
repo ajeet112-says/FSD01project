@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -18,6 +19,7 @@
 }
 
 .logo {
+    margin-right: 80px;
     background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
@@ -48,6 +50,9 @@
 } 
 
 /** box 3**/
+  .search:hover{
+    border: 2px solid rgb(236, 156, 17);
+  }
 
 .search{ 
     margin-left: 6px;
@@ -70,7 +75,7 @@
 .input{
     width: 100%;
 } 
-.search-icon{ 
+.search-icon{  
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     display: flex;
@@ -79,5 +84,60 @@
     width: 35px;
     height: 40px;
     background-color: chocolate;
+    color: #0f1111;
+} 
+
+.language{
+    background-color: black;
+} 
+.EN{
+    font-size: 0.85rem;
+    font-weight: 500;
 }
-    
+
+     /** box 4**/
+
+     span{
+        font-size: 0.75rem;
+     } 
+     nav-second{
+        font-size: 0.8rem;
+        font-weight: 700;
+     } 
+     /** box 6**/
+
+     .nav-cart i{
+        font-size: 30px;
+     }
+     .nav-cart{
+        font-size: 0.85rem;
+        font-weight: 700;
+     } 
+
+     /** panel**/
+
+     .panel{
+        height: 39px;
+        background-color: #222f3d;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+       
+     }  
+     .panel-all{
+        margin-right: 70px;
+     }
+     .panel-ops p{
+        display: inline;
+        margin: 30px;
+     } 
+     .panel-ops{
+        width: 70%;
+        font-size: 0.85rem;
+     }
+     .panel-deals{
+
+        font-size: 0.9rem;
+        font-weight: 700;
+     }
