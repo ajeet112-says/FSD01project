@@ -140,4 +140,24 @@
 
         font-size: 0.9rem;
         font-weight: 700;
+     } 
+
+     /** hero-section**/
+
+     .hero-section{
+        background-image: url("hero_image.jpg");
+        background-size: cover;
+        height: 370px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+     } 
+     .hero-msg{ 
+        margin: 25px;
+        background-color: #fff;
+        text-align: center;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
      }
