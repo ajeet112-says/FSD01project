@@ -160,4 +160,110 @@
         display: flex;
         justify-content: center;
         align-items: center;
+     }   
+
+
+
+     /** shop section **/ 
+
+     .shop-sec{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color:#e2e7e6;
      }
+      
+     .box{ 
+        margin-top: 7px;
+        height: 420px;
+        width: 23%;
+        background-color: white; 
+        
+     }     
+      
+
+     .box-content{
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+     }
+
+
+     .image-1{  
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 0px 15px;
+        background-size: cover;
+        background-image: url("box1_image.jpg");
+     } 
+
+     .image-2{  
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 0px 15px;
+        background-size: cover;
+        background-image: url("box2_image.jpg");
+     } 
+
+
+     .image-3{  
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 0px 15px;
+        background-size: cover;
+        background-image: url("box5_image.jpg");
+     } 
+
+     .image-4{  
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 0px 15px;
+        background-size: cover;
+        background-image: url("box4_image.jpg");
+     } 
+
+     /** next 4 box**/
+
+     .image-5{  
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 0px 15px;
+        background-size: cover;
+        background-image: url("box3_image.jpg");
+     } 
+
+     .image-6{  
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 0px 15px;
+        background-size: cover;
+        background-image: url("box6_image.jpg");
+     } 
+
+
+     .image-7{  
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 0px 15px;
+        background-size: cover;
+        background-image: url("box7_image.jpg");
+     } 
+
+     .image-8{  
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 0px 15px;
+        background-size: cover;
+        background-image: url("box8_image.jpg");
+     }  
+
+     
