@@ -10,4 +10,16 @@
 } 
 h2{
     font-size: 60px;
+} 
+#one {
+    color: rgb(244, 17, 0);
+    padding-left: 50px;
+} 
+#two{
+    color: green;
+    padding: 20px;
+} 
+#three {
+    color: black;
+    padding-top: 20px;
 }
